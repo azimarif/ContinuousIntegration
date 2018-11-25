@@ -1,0 +1,8 @@
+==================================CI Manual=====================================
+
+Usage:
+  Keeps running the mocha test on the cloned repository
+  Pull the repository on every time interval change
+
+Syntax:
+  ./continuousIntegration.sh <git Repository URL> <Time Interval>
