@@ -6,6 +6,10 @@ if [ ! -d "$repoName" ]; then
   git clone "$repoURL"
 fi
 
+if [ -z "$watchTime" ]; then
+  watchTime=60
+fi
+
 cd "$repoName"
 
 while true; do
